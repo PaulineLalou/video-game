@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 a:link {
   text-decoration: none;}
 a{
@@ -496,8 +499,10 @@ body {
   background-image: radial-gradient(
     rgba(204, 205, 218, 0.75), black 120%
   );
-  height: 250px;
-  margin: 150px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
   padding: 2rem;
   color: white;
